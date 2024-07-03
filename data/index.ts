@@ -8,8 +8,14 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: {
+      en: "I prioritize client collaboration, fostering open communication",
+      es: "Priorizo la colaboración con el cliente, fomentando la comunicación abierta",
+    },
+    description: {
+      en: "",
+      es: "",
+    },
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,8 +24,14 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
+    title: {
+      en: "Flexible with time zones and open to relocation",
+      es: "Flexible con los husos horarios y abierto a la reubicación",
+    },
+    description: {
+      en: "",
+      es: "",
+    },
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -28,8 +40,14 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: {
+      en: "My tech stack",
+      es: "Mi tech stack",
+    },
+    description: {
+      en: "I'm constantly improving",
+      es: "Estoy constantemente mejorando",
+    },
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,19 +56,30 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: {
+      en: "Experience in enterprise level Web Development",
+      es: "Experiencia en desarrollo web de nivel empresarial",
+    },
+    description: {
+      en: "",
+      es: "",
+    },
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: {
+      en: "Shipping and managing deployed products",
+      es: "Envío y gestión de productos en lanzados",
+    },
+    description: {
+      en: "Ongoing projects",
+      es: "Proyectos en curso",
+    },
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,8 +88,14 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
+    title: {
+      en: "Easiest way to contact me:",
+      es: "La forma más fácil de contactarme:",
+    },
+    description: {
+      en: "Copy my email address",
+      es: "Copia mi dirección email",
+    },
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
